@@ -213,3 +213,224 @@ button {
 .main__description-paragraph--white {
   color: white;
 }
+
+.course-preview__product-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.preview-card__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.preview-card__details {
+  display: flex;
+  gap: 21px;
+  color: rgb(115, 115, 115);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin-bottom: 26px;
+}
+
+.preview-card__details img {
+  margin-right: 6px;
+}
+
+.preview-card__price-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.preview-card__detail {
+  display: flex;
+}
+
+.preview-card__category-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.preview-card:nth-child(1) .preview-card__top-wrapper {
+  background-image: url("../photo/product-cover-1.svg");
+}
+
+.preview-card:nth-child(2) .preview-card__top-wrapper {
+  background-image: url("../photo/product-cover-2.svg");
+}
+
+.preview-card:nth-child(3) .preview-card__top-wrapper {
+  background-image: url("../photo/product-cover-3.svg");
+}
+
+.preview-card__top-wrapper {
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  width: 348px;
+  height: 300px;
+  position: relative;
+}
+
+.preview-card__bottom {
+  padding: 25px;
+}
+
+.course-preview__top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.course-preview__paragraph {
+  width: 469px;
+  color: rgb(115, 115, 115);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.course-preview__subtitle {
+  color: rgb(35, 166, 240);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.course-preview__title {
+  color: rgb(37, 43, 66);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+
+.preview-card__action {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.preview-card__actions {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.preview-card__action img {
+  width: 20px;
+  height: 20px;
+}
+
+.preview-card__category {
+  color: rgb(35, 166, 240);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.preview-card__rating {
+  border-radius: 20px;
+  background: rgb(37, 43, 66);
+  padding: 5px;
+  display: flex;
+  align-items: start;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.preview-card__badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(231, 64, 64);
+  padding: 0 10px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.preview-card__title {
+  color: rgb(37, 43, 66);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+  letter-spacing: 0.1px;
+}
+
+.preview-card__paragraph {
+  color: rgb(115, 115, 115);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 14px;
+}
+
+.preview-card__sales {
+  color: rgb(115, 115, 115);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.preview-card__price--old {
+  color: rgb(189, 189, 189);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.preview-card__price--current {
+  color: rgb(64, 187, 21);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 30px;
+}
+
+.preview-card__button {
+  border: 1px solid rgb(35, 166, 240);
+  border-radius: 37px;
+  padding: 10px 20px;
+  color: rgb(35, 166, 240);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
